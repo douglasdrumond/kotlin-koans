@@ -17,7 +17,5 @@ fun todoTask26_(): Nothing = TODO(
     references = { range: ClosedRange<Int> -> }
 )
 
-fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {
-    todoTask26_()
-//    return date in DateRange(first, last)
-}
+fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean =
+        date in DateRange(first, last)
